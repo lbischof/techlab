@@ -1,0 +1,28 @@
+site_name: OpenShift Techlab
+site_url: https://github.com/techlab
+repo_url: https://gitlab.com/appuio/techlab
+edit_url: edit/lab-3.11/labs
+theme:
+  name: material
+docs_dir: labs
+extra_javascript:
+- script.js
+extra_css:
+- style.css
+
+plugins:
+- search
+- awesome-pages
+- mkversion:
+    docs_version: latest
+    inject_js: true
+    containing_div: 'div.md-footer-meta__inner'
+
+  #- git-revision-date
+
+markdown_extensions:
+- nl2br
+- toc:
+    permalink: true
+- pymdownx.magiclink
+

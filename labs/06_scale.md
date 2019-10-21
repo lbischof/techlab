@@ -241,6 +241,8 @@ OpenShift sorgt dafür, dass wieder **n** Replicas des genannten Pods laufen.
 
 **Ende Lab 6**
 
+<div class="no-mkdocs">
 <p width="100px" align="right"><a href="07_troubleshooting_ops.md">Troubleshooting, was ist im Pod? →</a></p>
 
 [← zurück zur Übersicht](../README.md)
+</div>

@@ -62,6 +62,8 @@ In der Overview der Web Console ist diese Route mit dem Hostname jetzt auch sich
 
 **Ende Lab 5**
 
+<div class="no-mkdocs">
 <p width="100px" align="right"><a href="06_scale.md">Skalieren →</a></p>
 
 [← zurück zur Übersicht](../README.md)
+</div>

@@ -95,6 +95,8 @@ $ oc new-project [USER]-example1
 
 **Ende Lab 3**
 
+<div class="no-mkdocs">
 <p width="100px" align="right"><a href="04_deploy_dockerimage.md">Ein Container Image deployen →</a></p>
 
 [← zurück zur Übersicht](../README.md)
+</div>

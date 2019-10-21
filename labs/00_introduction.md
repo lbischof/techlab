@@ -11,8 +11,10 @@ Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software en
 
 * https://speakerdeck.com/appuio/appuio-openshift-techlab-overview
 
----
+<div class="no-mkdocs">
+<hr/>
 
-<p width="100px" align="right"><a href="01_quicktour.md">Quicktour durch OpenShift →</a></p>
+<p style="float: right"><a href="01_quicktour.md">Quicktour durch OpenShift →</a></p>
 
 [← zurück zur Übersicht](../README.md)
+</div>

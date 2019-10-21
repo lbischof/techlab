@@ -62,7 +62,7 @@ $ oc new-app example-spring-boot
 
 Mittels:
 ```
-oc import-image example-spring-boot 
+oc import-image example-spring-boot
 ```
 
 wird das image importiert und das deployment gestartet.
@@ -94,6 +94,8 @@ Wichtig ist, dass die Imagestreams zuoberst im Template File definiert sind. Ans
 
 **Ende Lab 11**
 
+<div class="no-mkdocs">
 <p width="100px" align="right"><a href="12_template_creation.md">Eigene Templates erstellen →</a></p>
 
 [← zurück zur Übersicht](../README.md)
+</div>

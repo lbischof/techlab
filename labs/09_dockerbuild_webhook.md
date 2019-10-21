@@ -146,6 +146,8 @@ $ oc set triggers dc/appuio-php-docker-ex --auto
 
 **Ende Lab 9**
 
+<div class="no-mkdocs">
 <p width="100px" align="right"><a href="10_persistent_storage.md">Persistent Storage anbinden und verwenden für Datenbank →</a></p>
 
 [← zurück zur Übersicht](../README.md)
+</div>

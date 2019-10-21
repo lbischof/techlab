@@ -167,4 +167,6 @@ Als Workaround kann mit `oc new-app -l <LABEL NAME>=<LABEL VALUE> ...` ein alter
 
 **Ende Lab 12**
 
+<div class="no-mkdocs">
 [← zurück zur Übersicht](../README.md)
+</div>

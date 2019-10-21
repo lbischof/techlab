@@ -258,6 +258,8 @@ Schauen Sie sich die erstellten Ressourcen mit `oc get [ResourceType] [Name] -o 
 
 **Ende Lab 4**
 
+<div class="no-mkdocs">
 <p width="100px" align="right"><a href="05_create_route.md">Routen erstellen →</a></p>
 
 [← zurück zur Übersicht](../README.md)
+</div>
