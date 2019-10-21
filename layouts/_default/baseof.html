@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . }}
+      <!-- Blocks may include default content. -->
+      {{ .Site.Title }}
+    {{ end }}</title>
+  </head>
+  <body>
+    <!-- Code that all your templates share, like a header -->
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+    {{ block "footer" . }}
+    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+    {{ end }}
+  </body>
+  <script>
+    (function() {
+        const replaceOnDocument = (pattern, string, {target = document.body} = {}) => {
+            // Handle `string` — see the last section
+            [
+                target,
+                ...target.querySelectorAll("*:not(script):not(noscript):not(style)")
+            ].forEach(({childNodes: [...nodes]}) => nodes
+                .filter(({nodeType}) => nodeType === document.TEXT_NODE)
+                .forEach((textNode) => textNode.textContent = textNode.textContent.replace(pattern, string)));
+        };
+
+        replaceOnDocument(/\[USER\]/g, "lbischof");
+    })();
+  </script>
+</html>
