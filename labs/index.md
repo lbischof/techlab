@@ -23,11 +23,11 @@ Dieses Techlab basiert auf OpenShift 3.11.
 
 ### Zusätzliche Labs
 
-- [Cron Jobs in OpenShift](additional-labs/cronjobs_and_jobs/)
-- [ConfigMaps](additional-labs/configmaps/)
-- [Pipelines](additional-labs/pipelines/)
-- [Eigene OpenShift Entwicklungsumgebung](additional-labs/development_environment/)
-- [Logging EFK Stack](additional-labs/logging_efk_stack/)
+- [Cron Jobs in OpenShift](/additional-labs/cronjobs_and_jobs/)
+- [ConfigMaps](/additional-labs/configmaps/)
+- [Pipelines](/additional-labs/pipelines/)
+- [Eigene OpenShift Entwicklungsumgebung](/additional-labs/development_environment/)
+- [Logging EFK Stack](/additional-labs/logging_efk_stack/)
 
 
 ## Weiterführende Dokumentation
