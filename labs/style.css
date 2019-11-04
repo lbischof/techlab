@@ -1,3 +1,17 @@
 .no-mkdocs {
     display: none;
 }
+
+#usernamePrompt {
+        position: fixed;
+        /* navigation bar */
+        top: 2.4rem;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: white;
+}
+#usernamePrompt input {
+    outline: 2px blue solid;
+    border: 2px #444 solid;
+}
